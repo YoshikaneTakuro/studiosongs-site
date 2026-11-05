@@ -1,0 +1,5 @@
+# 検索エンジン・AI検索のクローラーを歓迎します
+User-agent: *
+Allow: /
+
+Sitemap: https://www.studiosongs.net/sitemap.xml
