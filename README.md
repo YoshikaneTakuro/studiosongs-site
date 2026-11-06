@@ -34,7 +34,7 @@ scripts/wix-images.txt … 旧Wixの画像を取り込むリスト（GitHub が�
    - 空き状況・LINE予約・メール予約・電話ボタン・地図・時刻表のリンクを、スマホで一通り押してみる
 
 ### 3. ドメイン（お名前.com）を新サイトに向ける
-1. Cloudflare Pages のプロジェクト →「カスタムドメイン → カスタムドメインを設定」で **`www.studiosongs.net`** を追加
+1. Cloudflare の studiosongs-site →「設定 → ドメインとルート → 追加 → カスタムドメイン」で **`www.studiosongs.net`** を追加
 2. Cloudflare が表示する設定（`www` の **CNAME → studiosongs-site.pages.dev**）を、お名前.com の「DNS設定」で入れる
    - 今 Wix 向けに入っている `www` の CNAME（`…wixdns.net` など）は、この値に**書き換え**ます
    - お名前.com のネームサーバーが Wix のもの（`ns…wixdns.net`）になっている場合は、先にお名前.com の初期ネームサーバーに戻してから設定します
