@@ -1,7 +1,7 @@
 # 保存先 | WixメディアID | 変換（Wixの画像変換。raw なら元のまま）
-images/feature-parking.png|1e82d10c161a4285a005917a51cfa8da~mv2.png|fit/w_1000,h_1000
-images/feature-vocal.png|a694fce57d5942f5a0678c45385beba6~mv2.png|fit/w_1000,h_1000
-images/feature-bluetooth.png|2a06a7f41e964116848b8b856b2ce2bc~mv2.png|fit/w_1000,h_1000
+images/feature-parking.jpg|1e82d10c161a4285a005917a51cfa8da~mv2.png|fit/w_1000,h_1000,q_85
+images/feature-vocal.jpg|a694fce57d5942f5a0678c45385beba6~mv2.png|fit/w_1000,h_1000,q_85
+images/feature-bluetooth.jpg|2a06a7f41e964116848b8b856b2ce2bc~mv2.png|fit/w_1000,h_1000,q_85
 images/feature-membership.jpg|d9dd1b28c1de47ab8c341fa72b25a8a7~mv2.jpg|fit/w_1400,h_1400,q_85
 images/line-qr.png|e1693fac7e9c4f9d833b76bda8ac326b~mv2.png|raw
 images/logo.png|ce037ea920ed40d0bcca045dbcb008e1~mv2.png|raw
