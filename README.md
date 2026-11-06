@@ -20,7 +20,7 @@ scripts/wix-images.txt … 旧Wixの画像を取り込むリスト（GitHub が�
 
 ## 公開までの手順（この順番で）
 
-### 1. GitHub（済）
+### 1. GitHub（済・Cloudflareと自動連携済み）
 リポジトリ `YoshikaneTakuro/studiosongs-site`（Private）に置いてあります。
 最初に GitHub の「Actions」で **旧サイト（Wix）の画像を取り込む** が自動で動き、写真・ロゴ・LINEのQRが `public/images` に入ります（Actions タブで緑のチェックになっていればOK）。
 
