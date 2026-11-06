@@ -2,6 +2,10 @@
 {
   "name": "studiosongs-site",
   "compatibility_date": "2026-11-01",
+  "workers_dev": true,
+  "routes": [
+    { "pattern": "*studiosongs.net/*", "zone_name": "studiosongs.net" }
+  ],
   "assets": {
     "directory": "./public",
     "html_handling": "auto-trailing-slash",
