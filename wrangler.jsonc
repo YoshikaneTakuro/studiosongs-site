@@ -1,13 +1,17 @@
-// Cloudflare Workers（静的サイト）の設定
+// Cloudflare Workers の設定（静的サイト＋wwwへの統一）
 {
   "name": "studiosongs-site",
+  "main": "src/worker/index.js",
   "compatibility_date": "2026-11-01",
   "workers_dev": true,
   "routes": [
-    { "pattern": "*studiosongs.net/*", "zone_name": "studiosongs.net" }
+    { "pattern": "www.studiosongs.net", "custom_domain": true },
+    { "pattern": "studiosongs.net", "custom_domain": true }
   ],
   "assets": {
     "directory": "./public",
+    "binding": "ASSETS",
+    "run_worker_first": true,
     "html_handling": "auto-trailing-slash",
     "not_found_handling": "404-page"
   }
